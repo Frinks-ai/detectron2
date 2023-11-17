@@ -9,7 +9,7 @@ conda create -n env_name python=3.8
 ```
 2. install pytorch using below command.
 ```
-pip install torch==1.12.1+cu102 torchvision==0.13.1+cu102 torchaudio==0.12.1 --extra-index-url https://download.pytorch.org/whl/cu102
+pip install torch==1.10.1+cu111 torchvision==0.11.2+cu111 torchaudio==0.10.1 -f https://download.pytorch.org/whl/cu111/torch_stable.html
 ```
 3. now clone this current repo using below example.
 ```
